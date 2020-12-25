@@ -1434,7 +1434,7 @@ body.is-preload #bg:before {
     border-color: #ffffff;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 #header .content .inner {
@@ -1523,7 +1523,8 @@ body.is-preload #bg:before {
 }
 
 #header nav.use-middle ul li {
-    min-width: 200px;
+    width: 200px;
+    font-size: 1em;
 }
 
 body.is-article-visible #header {
