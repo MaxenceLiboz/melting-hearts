@@ -1523,8 +1523,7 @@ body.is-preload #bg:before {
 }
 
 #header nav.use-middle ul li {
-    min-width: 200px;
-    font-size: 0.8em;
+    min-width: 260px;
 }
 
 body.is-article-visible #header {
@@ -1555,6 +1554,12 @@ body.is-preload #header .content .inner {
     padding-top: 0;
     padding-bottom: 0;
     opacity: 0;
+}
+
+@media screen and (max-width: 1370px) {
+    #header nav.use-middle ul li {
+        min-width: 200px;
+    }
 }
 
 @media screen and (max-width: 980px) {
