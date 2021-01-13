@@ -1844,10 +1844,24 @@ body.is-preload #footer {
         margin-top: 20px;
         margin-bottom: 0;
     }
+
+    .article__heading {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
 }
 
 .employee__nav a {
     margin-bottom: 1em;
     font-weight: 600;
     text-decoration: none;
+}
+
+.employee__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee__item a {
+    border-bottom: 0;
 }
