@@ -1821,7 +1821,7 @@ body.is-preload #footer {
 
 .employee__img img {
     height: 300px;
-    max-width: 200px;
+    max-width: 170px;
 }
 
 .employee__title {
@@ -1832,6 +1832,18 @@ body.is-preload #footer {
 
 .employee__subheading {
     margin-left: 50px;
+}
+
+@media (max-width: 480px) {
+    .employee__title {
+        flex-direction: column;
+    }
+
+    .employee__subheading {
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
 }
 
 .employee__nav a {
