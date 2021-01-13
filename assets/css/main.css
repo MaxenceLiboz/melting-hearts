@@ -1818,3 +1818,24 @@ body.is-preload #footer {
 .article__indent span {
     font-weight: 600;
 }
+
+.employee__img img {
+    height: 300px;
+    max-width: 200px;
+}
+
+.employee__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.employee__subheading {
+    margin-left: 50px;
+}
+
+.employee__nav a {
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
